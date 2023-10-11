@@ -1,0 +1,73 @@
+body {
+    background-color: #a2a8aa;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(197, 206, 209);
+}
+
+/* header */
+
+.header h1 {
+    font-size: 40px;
+    margin-left: 25px;
+
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* cover */
+.cover {
+    height: 400px;
+    width: 1000px;
+    /* background-image: url(/img\ Takkenal\ makakenalan.jpeg) */
+    background-image: url('/img/about-me.jpg');
+    background-size: cover;
+}
+
+/* isi */
+
+.isi {
+    display: flex;
+    flex-wrap: 20px;
+    padding: 25px;
+}
+
+.sidebar { 
+    margin: 50px;
+}
+
+.sidebar p,
+.sidebar h4 {
+    text-align: justify;
+}
+
+.content h1 {
+    font-size: 30px;
+}
+
+.content p {
+    margin-left: 20px;
+    text-align: justify;
+}
+
+/* footer */
+
+.footer {
+    background-color: rgb(74, 74, 74);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px;
+}
